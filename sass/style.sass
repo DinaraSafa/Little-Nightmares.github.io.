@@ -1,0 +1,747 @@
+@import "normalizes.scss"
+@import "resets.scss"
+
+*
+    box-sizing: border-box
+@font-face
+    font-family: "Oranienbaum"
+    src: url('../fonts/Oranienbaum-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+
+@font-face
+    font-family: "Pattaya"
+    src: url('../fonts/Pattaya-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+.container
+    position: relative
+    max-width: 1140px
+    margin: 0 auto
+.main-section
+    position: relative
+    background: url(../img/section1.png) center center / cover no-repeat
+    min-height: 850px
+    padding-top: 16px
+    &__content-container
+        position: relative
+        display: flex
+        flex-direction: column
+    &__elements
+        width: 574px
+        height: 148px
+        display: inline-flex
+        justify-content: space-between
+        align-items: flex-end
+        margin-bottom: 20px
+    &__text
+        margin-bottom: 35px
+        width: 732px
+        height: 112px
+.navbar
+    margin-bottom: 390px
+.navbar-nav
+    a
+        color: #fff
+        font-size: 26px
+        font-family: "Oranienbaum"
+.navbar-brand
+    &__img
+        height: 100px
+        margin-right: 75px
+
+.nav-item
+    margin-right: 85px
+    &:last-child
+        margin-right: 0
+
+.title
+    font-size: 64px
+    line-height: 74px
+    color: #fff
+    text-align: center
+    font-family: "Oranienbaum"
+
+.buttons
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    &__main-btn
+        width: 168px
+        height: 45px
+        font-size: 18px
+        border-radius: 30px
+        border: none
+        color: #fff
+        background: #3F3F3F
+        box-shadow: 0px 4px 4px rgba(67, 68, 66, 0.685)
+        font-family: "Oranienbaum"
+
+.text
+    font-size: 20px
+    color: #fff
+    line-height: 30px
+    font-family: "Pattaya"
+// Вторая секция 
+.second-section
+    overflow: hidden
+    min-height: 850px
+    background: #07060E
+    &__title
+        margin-bottom: 50px
+        padding: 50px 0
+    &__box
+        height: 400px
+.box
+    display: inline-flex
+.box-item
+    display: flex
+    flex-wrap: nowrap
+    align-items: center
+    &__text
+        font-size: 24px
+        line-height: 28px
+        width: 450px
+        margin-right: 30px
+    &__text-right
+        text-align: right
+        width: 400px
+        margin-right: 0
+// Третья секция 
+.third-section
+    overflow: hidden
+    min-height: 1850px
+    background: #07060E
+    &__title
+        margin-top: 70px
+        margin-bottom: 80px
+    &__locker
+        display: flex
+        flex-direction: row
+        justify-content: center
+        width: 1320px
+.locker
+    display: inline-flex
+
+.sidebar
+    display: flex
+    flex-direction: column
+    width: 177px
+    height: 1406px
+    align-items: center
+.col
+    width: 756px
+    height: 119px
+    background-image: linear-gradient(135deg, #5369764b 10%, #292e4989 100%)
+    box-shadow: inset 0px 0px 17px #000000
+    border-radius: 150px
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    margin-bottom: 80px
+    &:last-child
+        margin-bottom: 0
+        margin-right: 40px
+.tagline
+    color: #fff
+    margin-bottom: 0px
+    font-family: "Pattaya"
+.holder
+    width: 785px
+.desc
+    color: #fff
+    text-align: center
+    font-size: 14px
+    padding: 0px 10px
+    font-family: "Pattaya"
+
+.sidebar-right
+    display: flex
+.pic-left
+    margin-bottom: 100px
+    &:last-child
+        margin-bottom: 0
+.pic-right
+    margin-bottom: 220px
+    &:last-child
+        margin-bottom: 0
+
+.pic-one
+    height: 269px
+    width: 90px
+    position: relative
+    top: -83px
+
+.pic-two
+    height: 265px
+    width: 180px
+    position: relative
+    top: 93px
+
+.pic-three
+    height: 243px
+    width: 146px
+    position: relative
+    top: -37px
+
+.pic-four
+    height: 237px
+    width: 131px
+    position: relative
+    top: 19px
+
+.pic-five
+    height: 279px
+    width: 117px
+    position: relative
+    top: -15px
+
+.pic-six
+    height: 161px
+    width: 165px
+    position: relative
+    top: 15px
+
+.pic-seven
+    height: 177px
+    width: 163px
+    position: relative
+    top: 71px
+
+.pic-eight
+    height: 269px
+    width: 130px
+    position: relative
+// Четвертая секция
+.fourth-section
+    overflow: hidden
+    min-height: 850px
+    background: #07060E
+    &__title
+        margin-top: 70px
+        margin-bottom: 50px
+    &__page
+        display: inline-flex
+        flex-wrap: wrap
+.page
+    display: flex
+    justify-content: center
+
+.wrap-first
+    width: 613px
+    height: 514px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-right: 36px
+    &__userpic
+        margin-bottom: 20px
+
+.quote
+    text-align: center
+    color: #fff
+    font-family: "Oranienbaum"
+    font-size: 23px
+
+.wrap-second
+    width: 453px
+    height: 514px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+
+.wrap-third
+    width: 1121px
+    height: 350px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: flex-end
+.inner
+    display: inline-flex
+    align-items: center
+    position: absolute
+    top: 636px
+    left: 700px
+.slogan
+    text-align: center
+    color: #fff
+    font-size: 56px
+    font-family: "Oranienbaum"
+// Подвал 
+.footer
+    background: #07060E
+    &__container
+        min-height: 210px
+.wrapper
+    display: flex
+.aside
+    display: inline-flex
+    align-items: center
+    &__first
+        display: inline-flex
+        justify-content: space-between
+        width: 432px
+        height: 252px
+    &__second
+        width: 850px
+        height: 302px
+.items
+    display: flex
+    align-items: center
+.column
+    display: flex
+    flex-direction: column
+.icons
+    display: inline-flex
+    margin-bottom: 53.72px
+    justify-content: space-around
+.copy
+    font-size: 38px
+    text-align: center
+    color: #fff
+    font-family: "Oranienbaum"
+
+@media (max-width: 1199px)
+    .container
+        width: 960px
+    .main-section
+        min-height: 690px
+        &__elements
+            width: 430px
+            height: 0px
+    .navbar-nav
+        a
+            font-size: 18px
+    .text
+        font-size: 18px
+    .title
+        font-size: 50px
+    .navbar-brand
+        width: 78px
+        height: 67px
+        &__img
+            height: 83px
+    .buttons
+        &__main-btn
+            width: 129px
+            height: 35px
+            font-size: 16px
+    .second-section
+        min-height: 740px
+        &__title
+            margin-bottom: 0
+    .box-item
+        &__text
+            font-size: 18px
+            width: 326px
+        &__text-right
+            width: 255px
+        &__img
+            width: 320px
+            height: 540px
+    .third-section
+        min-height: 1797px
+        &__locker
+            width: 950px
+    .col
+        width: 630px
+        margin-right: 0
+    .sidebar
+        width: 128px
+    .sidebar-right
+        position: absolute
+        top: 173px
+        left: 804px
+    .holder
+        width: 785px
+    .pic-one
+        width: 73px
+        top: -83px
+    .pic-two
+        width: 147px
+        top: 114px
+    .pic-three
+        width: 130px
+        top: -37px
+    .pic-four
+        width: 105px
+        top: 70px
+    .pic-five
+        width: 102px
+        top: -15px
+    .pic-six
+        width: 139px
+        top: 110px
+    .pic-seven
+        width: 144px
+        top: 71px
+    .pic-eight
+        width: 108px
+        top: 115px
+    .fourth-section
+        min-height: 850px
+    .wrap-first
+        width: 425px
+        margin-right: 48px
+    .userpic-2
+        width: 313px
+    .userpic-3
+        width: 294px
+    .userpic-4
+        width: 199px
+    .wrap-second
+        width: 463px
+    .userpic-7
+        width: 351px
+    .userpic-8
+        width: 320px
+    .inner
+        left: 436px
+    .slogan
+        font-size: 50px
+    .footer
+        &__container
+            min-height: 210px
+    .userpic-9
+        width: 115px
+    .userpic-10
+        width: 342px
+    .copy
+        font-size: 30px
+    .aside
+        &__second
+            width: 851px
+            height: 212px
+
+@media (max-width: 991px)
+    .container
+        width: 720px
+    .main-section
+        min-height: 670px
+        &__text
+            width: 580px
+    .text
+        font-size: 15px
+    .second-section
+        min-height: 580px
+        &__title
+            padding: 30px 0
+            margin-bottom: 0
+    .box-item
+        &__text
+            font-size: 11px
+            width: 269px
+            margin-right: 15px
+        &__text-right
+            width: 209px
+        &__img
+            width: 196px
+            height: 311px
+    .third-section
+        min-height: 1730px
+        &__title
+            margin-top: 18px
+            margin-bottom: 50px
+        &__locker
+            width: 720px
+    .col
+        width: 408px
+        margin-right: 0
+    .desc
+        font-size: 12px
+    .sidebar-right
+        position: absolute
+        top: 173px
+        left: 567px
+    .holder
+        width: 785px
+    .pic-two
+        top: 90px
+    .pic-four
+        top: 42px
+    .pic-six
+        top: 81px
+    .pic-eight
+        top: 100px
+    .fourth-section
+        min-height: 850px
+        &__title
+            margin-top: 33px
+    .wrap-first
+        width: 472px
+        margin-right: none
+    .userpic-2
+        width: 300px
+    .userpic-4
+        width: 255px
+    .wrap-second
+        width: 600px
+        height: 206px
+        flex-direction: row
+    .userpic-7
+        width: 330px
+    .userpic-8
+        width: 270px
+    .wrap-third
+        height: 272px
+    .userpic-3
+        width: 221px
+    .userpic-5
+        width: 294px
+    .userpic-6
+        width: 160px
+    .inner
+        left: 272px
+        top: 842px
+    .slogan
+        font-size: 40px
+    .footer
+        &__container
+            min-height: 210px
+    .userpic-9
+        width: 90px
+        margin-right: 20px
+
+    .userpic-10
+        width: 222px
+    .copy
+        font-size: 20px
+    .aside
+        &__second
+            width: 851px
+            height: 212px
+    .icons
+        margin-right: -16px
+
+@media (max-width: 767px)
+    .container
+        width: 540px
+    .main-section
+        min-height: 670px
+        &__text
+            width: 440px
+    .text
+        font-size: 12px
+    .buttons
+        &__main-btn
+            font-size: 12px
+    .second-section
+        min-height: 522px
+    .box-item
+        &__text
+            font-size: 9px
+            width: 186px
+        &__text-right
+            width: 122px
+    .third-section
+        min-height: 1700px
+        &__title
+            margin-top: 18px
+            margin-bottom: 50px
+        &__locker
+            width: 720px
+    .col
+        width: 378px
+    .tagline
+        font-size: 14px
+    .desc
+        font-size: 12px
+    .sidebar-right
+        position: absolute
+        top: 173px
+        left: 17px
+    .holder
+        width: 785px
+    .pic-one
+        width: 59px
+        top: -83px
+    .pic-two
+        width: 132px
+        top: 94px
+    .pic-three
+        width: 113px
+        top: -37px
+    .pic-four
+        width: 83px
+        top: 62px
+    .pic-five
+        width: 84px
+        top: -15px
+    .pic-six
+        width: 117px
+        top: 102px
+    .pic-seven
+        width: 123px
+        top: 71px
+    .pic-eight
+        width: 88px
+        top: 114px
+    .fourth-section
+        min-height: 850px
+        &__title
+            margin-top: 33px
+    .title
+        margin-bottom: 0
+    .wrap-first
+        width: 472px
+        margin-right: none
+    .userpic-4
+        width: 217px
+    .wrap-second
+        height: 164px
+    .userpic-7
+        width: 287px
+    .userpic-8
+        width: 227px
+    .wrap-third
+        height: 228px
+    .userpic-3
+        width: 171px
+    .userpic-5
+        width: 211px
+    .userpic-6
+        width: 134px
+    .inner
+        left: 193px
+        top: 750px
+        align-items: flex-end
+    .quote
+        font-size: 17px
+    .slogan
+        font-size: 30px
+    .footer
+        &__container
+            min-height: 210px
+    .userpic-9
+        width: 111px
+        margin-right: 20px
+    .userpic-10
+        display: none
+    .copy
+        margin-top: 90px
+        font-size: 30px
+    .buttons
+        display: none
+
+@media (max-width: 575px)
+    .container
+        width: 100%
+    .main-section
+        min-height: 520px
+        &__text
+            width: 100%
+    .title
+        font-size: 40px
+        line-height: normal
+        margin-bottom: 20px
+    .text
+        font-size: 12px
+        line-height: normal
+    .buttons
+        &__main-btn
+            font-size: 12px
+    .second-section
+        min-height: 522px
+        &__box
+            height: 200px
+    .box
+        flex-direction: column
+        justify-content: center
+    .box-item
+        &__text
+            font-size: 13px
+            text-align: center
+            line-height: none
+            width: 100%
+            margin-right: 0
+        &__text-right
+            text-align: center
+            margin-right: 0
+        &__img
+            display: none
+    .third-section
+        min-height: 1200px
+        &__title
+            margin-top: 18px
+        &__locker
+            width: 100%
+    .col
+        width: 100%
+        margin-bottom: 30px
+    .tagline
+        font-size: 12px
+    .desc
+        font-size: 10px
+    .sidebar
+        display: none
+    .sidebar-right
+        display: none
+    .holder
+        width: 100%
+    .pic-one
+        display: none
+    .pic-two
+        display: none
+    .pic-three
+        display: none
+    .pic-four
+        display: none
+    .pic-five
+        display: none
+    .pic-six
+        display: none
+    .pic-seven
+        display: none
+    .pic-eight
+        display: none
+    .fourth-section
+        min-height: 850px
+        &__title
+            margin-top: 33px
+    .page
+        flex-direction: column
+    .wrap-first
+        flex-direction: column
+        height: 475px
+        width: 100%
+        &__userpic
+    .userpic-2
+        width: 274px
+    .userpic-4
+        display: none
+    .wrap-second
+        align-items: normal
+        justify-content: flex-start
+        flex-direction: column
+        height: 549px
+    .userpic-7
+        width: 287px
+    .userpic-8
+        width: 290px
+    .wrap-third
+        width: 211px
+        flex-direction: column
+    .userpic-3
+        display: none
+    .userpic-5
+        width: 323px
+    .userpic-6
+        display: none
+    .inner
+        left: 57px
+        top: 963px
+    .quote
+        font-size: 17px
+    .slogan
+        font-size: 30px
+    .footer
+        &__container
+            min-height: 210px
+    .userpic-9
+        width: 133px
+        margin-right: 45px
+    .copy
+        display: none
